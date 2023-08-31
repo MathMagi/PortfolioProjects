@@ -1,46 +1,4 @@
-#Visualization Regression Project
-#
-# Y = f(x), y is target/dependent variable, x is covariate/independent variable
-#
-#depending on y f is determined
-#
-
-# Project should not be a Simple Linear Regression
-# For instance Simple Linear Regression, 
-# we have Y= b0+b1X1, E(Y)=b0+b1x1, we want to see how good our regression is (R2)
-# How the variables affect y, technical discussion,
-
-# What we Write should be readable and not just technical mumbo jumbo
-#  Specifically look at what the values actually mean, takes off a lot of points if we can not
-#  coefficient estimate meanings!!!
-
-
-# Model Building
-# Model size, if small enough manually build using forward model building 
-# then model search, step AIC, or something else that checks for interactions
-# AIC does not check for interactions
-# Need at least two models
-
-# Model assumption check
-# Model validation 
-  # P value f-stat
-  # Build P.I. and see if data falls in the 95% prediction interval
-# Cross Validation (train & test sets)
-
-#### MAKE SURE TO INTERRUPT THE COEFFICEINT ESTIMATES (B1,B2,B3,...)
-# general regression equation E(y)= b0 + b1x1 + b2x2
-# b0 = intercept 
-# b1 is the expected change in y if we increase x1 by 1 unit
-# Additionally, we need to make sure we do not create a causation relation between x and y
-
-# Example: Doctors showing smoking causes lung cancer, tobacco companies hired statisticians
-# to argue that the fact we have high smoking percentages leading to high risk of lung cancer deaths
-# is not something we can argue against but here are other variables that could explain why these people have lung cancer
-# with this argument they held back the legal system for many years until they came to a conclusion how this happened
-# 
-# We can only decide the correlations and what effect they have on the dependent variable 
-# not that it is the cause of the variable
-#
+#Ames Housing Data
 #
 #
 
